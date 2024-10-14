@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubunto' ;
+}.container {
+    background: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile{
+    background-image: url('color-transition-blue-pink.webp');
+    width:100%;
+    height: 500px;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    gap: 10px;
+    
+}
+
+#woman{
+    width: 200px;
+    height: 200px;
+    border-radius:500px ;
+}
+#link{
+    width: 60px;
+    border-radius: 10px;
+}
+.main-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: -100px;
+    font-size: 20px;
+    color: white;
+}
+.header{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color:whitesmoke;
+height: 70px;
+border-radius: 40px;
+background-color: whitesmoke;
+width:900px ;
+box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+}
+.header a {
+    color:rgb(149, 146, 146);
+    text-decoration: none;
+    z-index: 2;
+    transition: color 0.5s;
+    padding: 13px 35px;
+    position: relative;
+    font-weight: bold
+    
+    
+}
+.header a::after{
+    content: '';
+    background: #8EEEE3;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: top 0.4s opacity 0.4s ;
+
+
+}
+.header a:hover{
+    color: white;
+}
+.header a:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+
+.aboutMe{
+    background-color: whitesmoke;
+    color: rgb(158, 162, 249);
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+    border-radius: 40px;
+    height: 350px;
+    width: 1000px
+}
+.aboutMe img{
+    width:500px ;
+    border-radius:40px ;
+}
