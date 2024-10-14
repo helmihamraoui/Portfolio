@@ -1,1 +1,35 @@
 
+.topcarte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 50px;
+
+}
+.topcarte img{
+    height: 270px;
+    width: 300px;
+    border-radius: 50px;
+}
+.skills{
+    text-align: center;
+}
+.boxskills{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 700px;
+}
+.skillspresentation{
+    width: 300px;
+
+}
+.skillspronstage img{
+    width: 400px;
+}
