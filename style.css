@@ -19,7 +19,8 @@
 .profile{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;
     gap: 10px;
     margin-top: -100px;
 }
@@ -77,16 +78,24 @@
     border-radius: ;
 }
 =======
+.toppage{
+    width: 1000px;
+    margin: 0 auto;
+}
 .topcarte{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding: 15px;
     margin: 0 auto;
     width: 700px;
-    border-radius: 50px;
+    border-radius: 50px; 
+    gap: 25px;
 
+}
+.topcarte p{
+    height: 250px;
+    width: 500px;
 }
 .topcarte img{
     height: 270px;
