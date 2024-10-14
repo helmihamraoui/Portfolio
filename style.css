@@ -4,13 +4,14 @@
     font-family: 'Ubunto';
 }
 .navbar{
-    background-color: #E8D4D4;
+    background-color:#E8D4D4;
     width: 100%;
     height: 600px;
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     color: rgb(145, 134, 134);
 }
 .profile{
@@ -22,7 +23,7 @@
     margin-top: -100px;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     margin-top: 10px;
 }
 #cv{
@@ -59,7 +60,7 @@
 
 
 }
-.subnavbar ul li:hover{;
+.subnavbar ul li:hover{
     color:white
     
 }
@@ -75,7 +76,7 @@
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
 }
 #cv{
-    width: 70px;
+    width: 50px;
     border-radius: 40px;
 }
 =======
