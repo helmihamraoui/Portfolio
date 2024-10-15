@@ -5,6 +5,7 @@
 }
 body{
     background-image: url("image/background.jpg");
+    width: 100%;
 }
 #name{
     font-size: 20px;
