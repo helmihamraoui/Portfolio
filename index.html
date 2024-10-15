@@ -30,10 +30,10 @@
             </div>
             <!-- end profile -->
         <!-- end navbar -->
-        <!-- start card descption -->
+        <!-- start home -->
         <div class="topcarte">
             <p> My name is [Your Name], and I’m currently a beginner in web development. my passion for technology led me to explore web development. I am currently learning HTML, CSS, and JavaScript through a web development bootcamp, where I’ve been building my skills in creating responsive websites and understanding the core concepts of front-end development. My goal is to become proficient in building interactive, user-friendly web pages, and I am eager to apply my creativity and problem-solving abilities in real-world projects. While I’m still at the start of my journey, I am committed to continuous learning and improving my coding skills to eventually become a full-fledged web developer.</p>
-            <img src="./image/web_developer.webp" alt="">
+            <img onmouseover="changeimagecard(this)" onmouseout="changeimage(this) " src="./image/web_developer.webp" alt="image">
         </div>
         <br>
         <br>
@@ -44,19 +44,16 @@
                 <p>As a beginner in web development, I am eager to build a solid foundation in both front-end and back-end technologies. I have started learning HTML, CSS, and JavaScript, and I am excited to apply these skills in my current portfolio  project . I am also familiarizing myself with responsive design principles and basic version control using Git. My passion for problem-solving drives me to continuously seek new challenges and expand my skill set. I am committed to growing my expertise in web development and collaborating with others to create engaging and user-friendly websites.</p>
                 <nav>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>MERN</li>
-                        <li>Python</li>
+                        <li onclick="toplanguages(this)">front-end</li>
+                        <li onclick="toplanguages(this)">Back-end</li>
+                        <li onclick="toplanguages(this)">Data-base</li>
                     </ul>
                 </nav>
+                <div classe="imageskills">
+                    <img id="imageskills" src="image/languges.jpg" alt="image">
+                </div>
         </div>
         <!-- starts blox what i do  -->
-        <br>
-        <br>
-        <br>
-        <br>
         <h1>WHAT I DO</h1>
         <!-- design -->
         <div class="whatIDo">
@@ -80,7 +77,7 @@
         <h1>PORTFOLIO</h1>
         <div class="portfolio">
             <div class="leftblox">
-                <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/dojoweather.mp4" muted></video>
+                <video class="video"  onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/dojoweather.mp4" muted></video>
                 <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/page.mp4" muted></video>
             </div>
             <div class="rightblox">
@@ -94,16 +91,11 @@
         <br>
         <h1> CONTACT ME</h1>
         <div class="contact">
-            <form action="">Enter your user name</form>
-            <input id="username" type="text" placeholder="user name">
-            <form action="">Enter your email address</form>
-            <input id="user-gmail" type="text" placeholder="user-name@gmail.com" >
-            <form action=""> User Feeback</form>
-            <textarea name="" id="" placeholder="here you can write a brief description of the reason for contacting us ..."></textarea> 
-            <br>
-            <button>Submit</button>
-        </div>
-        
+            <div class="form"> <label>First Name :</label><input type="text" name="name" id="name"></div>
+            <div class="form"><label >Last Name :</label><input type="text" name="name" id="name"></div>
+            <div class="form"> <label > message: </label><textarea name="message" id="message"></textarea></div>
+            <button>envoyer</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
