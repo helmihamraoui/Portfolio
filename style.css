@@ -4,7 +4,7 @@
     font-family: 'Ubunto';
 }
 .navbar{
-    background-color:#E8D4D4;
+    background-color:#e6a992;
     width: 100%;
     height: 600px;
     display: flex; 
@@ -12,7 +12,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: rgb(145, 134, 134);
+    color: rgb(111, 91, 91);
+
 }
 .profile{
     display: flex;
@@ -23,17 +24,47 @@
     margin-top: -100px;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 5px;
+
 }
 #cv{
-    width: 50px;
+    width: 100px;
+    border-radius: 50%;
 }
 #image{
-    width: 250px;
-    height: 250px;
+    
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.7);
+}
+.icons{
+    width: 100px;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 120px;
+    padding-top: 15px;
+
+}
+.icons #linkedin{
+
+    width: 90px;
+    height: 90px;
+
+}
+
+
+.icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#fcb{
+    width: 65px;
+    height: 65px;
 }
 .subnavbar ul li{
     display: inline-block;
@@ -74,9 +105,10 @@
     padding: 10px 100px;
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+    margin-bottom: 100px;
 }
 #cv{
-    width: 50px;
+    width: 100px;
     border-radius: 40px;
 }
 =======
@@ -93,12 +125,13 @@
     width: 1000px;
     border-radius: 50px; 
     gap: 25px;
+    font-size: 18px;
 
 }
 .topcarte p{
     height: 250px;
     width: 500px;
-    font-family: cursive;
+
 }
 .topcarte img{
     height: 270px;
@@ -110,20 +143,30 @@
 }
 .boxskills{
     margin: 0 auto;
+    font-size: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    width: 1000px;
+    width: 2000px; 
+}
+.skills{
+    color: #e6a992;
 }
 .boxskills P{
-    width: 350px;
+    width: auto;
     padding: 10px;
     border-radius: 55px;
-    font-family: cursive;
+
 }
 .boxskills img{
     width: 400px;
     padding: 10px;
     border-radius: 55px;
+}
+#temp{
+    text-align: left;
+    margin-left: -50PX;
+
 }
