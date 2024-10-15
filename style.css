@@ -7,7 +7,7 @@ body{
     background-image: url("image/background.jpg");
 }
 .navbar{
-    background-color:#e6a992;
+    background-color:#E8D4D4;
     width: 100%;
     height: 600px;
     display: flex; 
@@ -15,8 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: rgb(111, 91, 91);
-
+    color: rgb(145, 134, 134);
 }
 .profile{
     display: flex;
@@ -27,47 +26,17 @@ body{
     margin-top: -100px;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-
+    gap: 10px;
+    margin-top: 10px;
 }
 #cv{
-    width: 100px;
-    border-radius: 50%;
+    width: 50px;
 }
 #image{
-    
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.7);
-}
-.icons{
-    width: 100px;
-    display: flex;
-    width: 50px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 120px;
-    padding-top: 15px;
-
-}
-.icons #linkedin{
-
-    width: 90px;
-    height: 90px;
-
-}
-
-
-.icons img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-#fcb{
-    width: 65px;
-    height: 65px;
 }
 .subnavbar ul li{
     display: inline-block;
@@ -108,10 +77,9 @@ body{
     padding: 10px 100px;
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
-    margin-bottom: 100px;
 }
 #cv{
-    width: 100px;
+    width: 50px;
     border-radius: 40px;
 }
 =======
@@ -120,52 +88,30 @@ body{
 }
 .toppage{
     margin: 0 auto;
-
 }
 .topcarte{
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    justify-content: left;
-    background-color: white;
-    margin: 0 auto;
-    width: 950px;
-    height: 350px;
-    font-size: 20px;
-=======
     justify-content: space-around;
     background-color: white;
     margin: 0 auto;
     width: 1500px;
->>>>>>> 48c70a18a99f562a263551c72b23904340303cce
     border-radius: 50px; 
     gap: 25px;
-    margin-top: -70px;
-    background-color: #d4ecfd;
-<<<<<<< HEAD
-    font-size: 18px;
-=======
     position: relative;
     bottom: 50px;
     padding: 20px;
     border: 3px solid white;
->>>>>>> b72011b4b096d88be86a3ecc66a0ca4f8c79952a
 
 }
-<<<<<<< HEAD
-
-
-
-=======
 .topcarte p{
 
     width: 1000px;
     font-family: cursive;
 }
->>>>>>> 48c70a18a99f562a263551c72b23904340303cce
 .topcarte img{
-    height: 350px;
-    width: 450px;
+    height: 270px;
+    width: 300px;
     border-radius: 50px;
 }
 .skills{
@@ -173,48 +119,23 @@ body{
 }
 .boxskills{
     margin: 0 auto;
-    font-size: 35px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    width: 2000px; 
-    
-}
-.skills{
-    color: #e6a992;
-}
-.coding-lg{
-    background-color: #d4ecfd;
-    height: 100px;
     width: 1000px;
-    border-radius: 40px;
-}
-.coding-lg li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 30px 65px;
-
-
 }
 .boxskills P{
-    width: auto;
+    width: 350px;
     padding: 10px;
     border-radius: 55px;
-
+    font-family: cursive;
 }
 .boxskills img{
     width: 400px;
     padding: 10px;
     border-radius: 55px;
 }
-<<<<<<< HEAD
-#temp{
-    text-align: left;
-    margin-left: -50PX;
-
-=======
 .whatIDo{
     display: flex;
     justify-content: space-around;
@@ -273,10 +194,6 @@ h1{
     align-items: center;
     justify-content: center; 
     padding: 20px;
-<<<<<<< HEAD
-    gap: 30px;
->>>>>>> b72011b4b096d88be86a3ecc66a0ca4f8c79952a
-=======
     gap: 40px;
 }
 hr{
@@ -287,5 +204,4 @@ hr{
     position: relative;
     top: 15px;
 
->>>>>>> 48c70a18a99f562a263551c72b23904340303cce
 }
