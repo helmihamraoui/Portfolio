@@ -92,10 +92,10 @@ body{
 .topcarte{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
     margin: 0 auto;
-    width: 850px;
+    width: 1500px;
     border-radius: 50px; 
     gap: 25px;
     position: relative;
@@ -105,8 +105,8 @@ body{
 
 }
 .topcarte p{
-    height: 250px;
-    width: 500px;
+
+    width: 1000px;
     font-family: cursive;
 }
 .topcarte img{
@@ -141,10 +141,12 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    margin: 0 auto; 
-    padding: 50px;
+    padding: 40px;
     background-color: white;
     border-radius: 30px;
+    margin: 0 auto;
+    width: 1700px;
+    height: 250px;
 }
 .blocdescription{
     display: flex;
@@ -157,6 +159,8 @@ body{
 
 h1{
     text-align: center;
+    font-size: 70px;
+    padding: 10px;
 }
 .blocdescription img{
     width: 200px;
@@ -168,10 +172,12 @@ h1{
     gap: 30px;
     padding: 10px;
     border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    width: 1500px;
 }
 .portfolio video{
-    width: 850px;
-    height: 500px;
+    width: 650px;
     border-radius:70px;
 }
 .leftblox{
@@ -180,7 +186,7 @@ h1{
     align-items: center;
     justify-content: center; 
     padding: 20px;
-    gap: 30px;
+    gap: 40px;
 }
 .rightblox{
     display: flex;
@@ -188,5 +194,14 @@ h1{
     align-items: center;
     justify-content: center; 
     padding: 20px;
-    gap: 30px;
+    gap: 40px;
+}
+hr{
+    font-size: 150px;
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+
 }
