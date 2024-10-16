@@ -1,32 +1,4 @@
 
-<<<<<<< HEAD
-document.getElementById("cv")
-    .addEventListener("click", function () {
-        var text = document.getElementById("text").value;
-        var filename = "output.txt";
-        download(filename, text);
-    }, false);
-
-
-    function over(element){
-        document.getElementById("web-dev").src = './image/pc.png';
-        }
-
-    function out(element){
-        document.getElementById("web-dev").src = './image/web_developer.webp'
-    }
-
-    document.querySelector('#cv').addEventListener('click', function() {
-        console.log('CV image clicked. Download started.');
-    });
-
-
-function scrollTo(element) {
-    location.hash = "#" + element;
-}
-
-    
-=======
 var myTimeout = setTimeout(myGreeting, 2500);
 function myGreeting() {
     document.getElementById('developement').src="image/desc.jpg"
@@ -80,4 +52,9 @@ function zoomin(element){
 function defult(element){
     element.style.width='650px';
 }
->>>>>>> e1c390b3d915f320ff6531c867349822ab40a245
+document.getElementById("cv")
+    .addEventListener("click", function () {
+        var text = document.getElementById("text").value;
+        var filename = "output.txt";
+        download(filename, text);
+    }, false);

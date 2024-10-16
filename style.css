@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Arimo";
+    font-family: 'Ubunto';
 }
 body{
     background-image: url("image/background.jpg");
@@ -15,7 +15,7 @@ body{
     color: rgb(103, 90, 83);
 }
 .navbar{
-    background-color:#f3bca1;
+    background-color:#f3d0be;
     width: 2000px;
     height: 650px;
     display: flex; 
@@ -26,7 +26,6 @@ body{
     color: rgb(103, 90, 83);
     margin-bottom: 60px;
 }
-
 .profile{
     display: flex;
     flex-direction: column;
@@ -61,10 +60,6 @@ body{
     z-index: 2;
     transition: color 0.5s;
 }
-.subnavbar ul li a {
-text-decoration: none ;
-font-size: 25px;
-}
 .subnavbar ul li::after{
     content: '';
     background:#0D99FF;
@@ -89,13 +84,12 @@ font-size: 25px;
 }
 
 .subnavbar{
-    background-color: whitesmoke;
+    background-color:rgb(201, 230, 246) ;
     padding: 10px 100px;
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
     height: 60px;
-    background-color: rgb(201, 230, 246);
-    position:sticky;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -167,7 +161,9 @@ nav ul {
     width: 1000px;
     height: 100px;
     border-radius: 40px;
-    color: #e05d1c;
+    color: #ef9061;
+    transform: scale(1.1);
+    cursor: pointer;
     
 }
 
@@ -207,7 +203,7 @@ h1{
     gap: 30px;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgb(201, 230, 246);
+    background-color: #f0e3dc;
     margin: 0 auto;
     width: 1500px;
 }
@@ -240,7 +236,6 @@ hr{
     top: 15px;
 
 }
-<<<<<<< HEAD
 #username{
     width: 200px;
     height: 50px;
@@ -371,5 +366,3 @@ input::placeholder {
     gap: 35px;
     color: #f0e3dc;
 }
-=======
->>>>>>> e1c390b3d915f320ff6531c867349822ab40a245
