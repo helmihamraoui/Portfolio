@@ -16,7 +16,9 @@
                 <img id="image" src="./image/helmi.jpg" alt="profile">
                 <h1 id="name">Name lastname</h1>
                 <h2>A junior web developer </h2>
-                <img style="cursor: pointer;" id="cv" src="./image/cv-icon-11 (1).jpg">
+                <a href="wided.cv.pdf" download="MyCV.pdf">
+                    <img src="./image/cv-icon-11 (1).jpg" alt="" id="cv">
+                </a>
             </div>
             <!-- subnavbar -->
                 <div class="subnavbar">
@@ -72,9 +74,15 @@
         <h3>Creative approach to research,analysis and decision making</h3>
         </div>
         </div>
-        <hr>
+        <br>
+        <br>
+        <br>
         <!-- start portflio -->
         <h1>PORTFOLIO</h1>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="portfolio">
             <div class="leftblox">
                 <video class="video" onclick="linkopen('dojoweather')" onmouseover="startvideo(this),zoomin(this)" onmouseout="closevideo(this),defult(this)" src="./vedio/dojoweather.mp4" muted></video>
@@ -91,6 +99,43 @@
         <br>
         <h1> CONTACT ME</h1>
         <div class="contact">
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- contact -->
+        <div class="contact" id="Contact-sec">
+            <div class="bloc-1">
+                <div class="address" style="cursor: default;">
+                    <img src="./image/address.jpg" alt="">
+                    <h2>L'Aouina-Dar Fadhel Avenue,Tunisia</h2>
+                </div>
+                <div class="phone" style="cursor: default;">
+                    <img src="./contact-icon-3357824_1280.webp" alt="">
+                    <h2>+216 29619933</h2>
+                </div>
+                <div class="email" style="cursor: default;">
+                    <img src="./email-icon-design-in-blue-circle-png.webp" alt="">
+                    <h2>widedmsakem@gmail.com</h2>
+                </div>
+                <div class="github" style="cursor: default;">
+                    <img src="./image/Github-512.webp" alt="">
+                    <h2>User name : widedmsa</h2>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="feedback">
+                <h2 id="Send">Send me a message </h2>
+                <h2>If you have any questions or feedback, do not hesitate to get in touch!</h2>
+                <br>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Enter your message here... " id="message">
+                <button onclick="alert('your message was sent successfully!')" style="cursor: pointer;">Send now</button>
+            </div>
+        </div>
+        <!-- end contact -->
+
     </div>
     <script src="script.js"></script>
 </body>

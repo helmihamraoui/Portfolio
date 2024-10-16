@@ -52,3 +52,9 @@ function zoomin(element){
 function defult(element){
     element.style.width='650px';
 }
+document.getElementById("cv")
+    .addEventListener("click", function () {
+        var text = document.getElementById("text").value;
+        var filename = "output.txt";
+        download(filename, text);
+    }, false);

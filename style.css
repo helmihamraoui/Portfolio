@@ -15,7 +15,7 @@ body{
     color: rgb(103, 90, 83);
 }
 .navbar{
-    background-color:#f3bca1;
+    background-color:#f3d0be;
     width: 2000px;
     height: 650px;
     display: flex; 
@@ -84,11 +84,14 @@ body{
 }
 
 .subnavbar{
-    background-color: whitesmoke;
+    background-color:rgb(201, 230, 246) ;
     padding: 10px 100px;
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
     height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 #cv{
     width: 50px;
@@ -158,7 +161,9 @@ nav ul {
     width: 1000px;
     height: 100px;
     border-radius: 40px;
-    color: #e05d1c;
+    color: #ef9061;
+    transform: scale(1.1);
+    cursor: pointer;
     
 }
 
@@ -198,7 +203,7 @@ h1{
     gap: 30px;
     padding: 10px;
     border-radius: 50px;
-    background-color: white;
+    background-color: #f0e3dc;
     margin: 0 auto;
     width: 1500px;
 }
@@ -230,4 +235,134 @@ hr{
     position: relative;
     top: 15px;
 
+}
+#username{
+    width: 200px;
+    height: 50px;
+}
+#user-gmail{
+    width: 200px;
+    height: 20px;
+}
+
+
+.icons img{
+    width:30px;
+}
+.whatIDo{
+    background-color:rgb(201, 230, 246) ;
+}
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+}
+
+img{
+    width: 50px;
+    border-radius: 40px;
+}
+    
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.phone:hover{
+    transform: scale(1.1);
+
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email:hover{
+    transform: scale(1.1);
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.github:hover{
+    transform: scale(1.1);
+
+}
+.contact{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 50px;
+
+
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    height: 50px;
+    background-color: #e8d3c9;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+}
+input:hover{
+    transform: scale(1.1);
+}
+#message{
+    height: 100px;
+    text-align: top;
+}
+button{
+    color: #5a1f01;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: #f2ac89;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+    
+    
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+.vertical-line {
+    width: 2px; 
+    height: 350px; 
+    background-color: rgb(102, 61, 61); 
+    margin: 20px;
+}
+input::placeholder {
+    font-size: 20px; 
+    color: gray; 
+}
+#send{
+    color: #612609;
+}
+.bloc-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #f0e3dc;
 }
