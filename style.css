@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubunto';
+    scroll-behavior: smooth;
 }
 body{
     background-image: url("image/background.jpg");
@@ -27,6 +28,20 @@ body{
     color: rgb(103, 90, 83);
     margin-bottom: 60px;
 }
+
+#cv-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #f0e8e4;
+    box-shadow: 0 0 25px rgb(35, 45, 162) ,0 0 25px rgb(35, 45, 162) ;
+}
+.navbar a {
+    text-decoration: none;
+}
+ul li:hover{
+    transform: scale(1.2);
+}
 .profile{
     display: flex;
     flex-direction: column;
@@ -36,7 +51,7 @@ body{
     /* margin-top: -100px; */
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -90,14 +105,14 @@ body{
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
     height: 60px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
+    width: 100%;
+    text-align: center;
 }
-#cv{
-    width: 50px;
-    border-radius: 40px;
-}
+
+
 .container{
     margin: 0 auto;
 }
@@ -145,6 +160,8 @@ h1{
     align-items: center;
     gap: 50px;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .boxskills img{
     width: 1500px;
@@ -207,6 +224,8 @@ h1{
     background-color: #f0e3dc;
     margin: 0 auto;
     width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .portfolio video{
     width: 650px;
@@ -252,6 +271,8 @@ hr{
 }
 .whatIDo{
     background-color:rgb(201, 230, 246) ;
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
 .contact{
     display: flex;
@@ -301,14 +322,12 @@ img{
 }
 .github:hover{
     transform: scale(1.1);
-
 }
 .contact{
     display: flex;
     gap: 200px;
     padding-bottom: 50px;
-
-
+    margin-top: 30px;
 }
 .feedback h2{
     text-align: center;
@@ -351,16 +370,14 @@ button{
     background-color: #f2ac89;
     border: none;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
-    
-    
 
 }
 button:hover{
-    transform: scale(1.1);:
+    transform: scale(1.1);
 }
 .vertical-line {
-    width: 2px; 
-    height: 350px; 
+    width: 5px; 
+    height: 370px; 
     background-color: rgb(102, 61, 61); 
     margin: 20px;
 }
@@ -396,4 +413,4 @@ textarea{
     flex-direction: column;
     align-items: start;
     gap: 20px;
-}
+    }

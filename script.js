@@ -1,12 +1,18 @@
 
-var myTimeout = setTimeout(myGreeting, 2500);
-function myGreeting() {
-    document.getElementById('developement').src="image/desc.jpg"
+var arr=["image/web_developer.webp","image/pc.png","image/frond.avif","image/OIP (1).jpg","image/OIP (2).jpg","image/OIP.jpg","image/download.jpg"]
+var myTimeout = setInterval(imagE, 2000);
+
+var imageindex=0;
+function imagE (){
+    if (imageindex==arr.length) {
+        imageindex=0
+    }
+    document.getElementById('developement').src=arr[imageindex]
+    imageindex++
 }
-var Timeout = setTimeout(myStopFunction, 5000);
-function myStopFunction() {
-    document.getElementById('developement').src="image/web_developer.webp"
-}
+
+
+
 function toplanguages(element){
 var image = document.getElementById('imageskills')
 if(element.innerHTML=="front-end"){
@@ -52,22 +58,41 @@ function zoomin(element){
 function defult(element){
     element.style.width='650px';
 }
-document.getElementById("cv")
-    .addEventListener("click", function () {
-        var text = document.getElementById("text").value;
-        var filename = "output.txt";
-        download(filename, text);
-    }, false);
-    var first = document.getElementById("firstname").value;
-    var last = document.getElementById("lastname").value;
-    var email = document.getElementById("email").value;*
-function chainevide(){
+document.querySelector('#cv').addEventListener('click', function() {
+    console.log('CV image clicked. Download started.');
+});
     
+    
+
+function firstnamevalide(){
+    var first = document.getElementById("firstname").value;
+    console.log(first);
+    return !isNaN(Number(first))
+}
+function lastnamevalide(){
+    var last = document.getElementById("lastname").value;
+    console.log(last);
+    return !isNaN(Number(last))
 }
 function validateForm() {
-        
-        
+    var messag = document.getElementById("message").value;
+    console.log(messag);
+    
+        if(firstnamevalide()==true || lastnamevalide()==true || messag=="" ){
+            alert('invalide')
+        }
     }
-
+    function linkOpen(id){
+        if(id=='watts'){
+            location.assign("https://web.whatsapp.com/")
+        }else if(id=='github'){
+            location.assign("https://github.com/helmihamraoui")
+        }else if(id=='email'){
+            location.assign("https://mail.google.com/mail/u/0/?hl=fr#inbox")
+        }else if(id=='linkidin'){
+            location.assign("https://www.linkedin.com/in/helmi-hamraoui-49ab98329/")
+        }
+    
+    }
 
 
