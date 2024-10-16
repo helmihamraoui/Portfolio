@@ -35,7 +35,7 @@
         <!-- start home -->
         <div class="topcarte">
             <p> My name is [Your Name], and I’m currently a beginner in web development. my passion for technology led me to explore web development. I am currently learning HTML, CSS, and JavaScript through a web development bootcamp, where I’ve been building my skills in creating responsive websites and understanding the core concepts of front-end development. My goal is to become proficient in building interactive, user-friendly web pages, and I am eager to apply my creativity and problem-solving abilities in real-world projects. While I’m still at the start of my journey, I am committed to continuous learning and improving my coding skills to eventually become a full-fledged web developer.</p>
-            <img id="developement" src="./image/web_developer.webp" alt="image">
+            <img id="developement" onmouseover="replace(this)" src="./image/web_developer.webp" alt="image">
         </div>
         <br>
         <br>
@@ -43,12 +43,11 @@
         <h1>SKILLS</h1>
         <br>
         <div class="boxskills">
-                <p>As a beginner in web development, I am eager to build a solid foundation in both front-end and back-end technologies. I have started learning HTML, CSS, and JavaScript, and I am excited to apply these skills in my current portfolio  project . I am also familiarizing myself with responsive design principles and basic version control using Git. My passion for problem-solving drives me to continuously seek new challenges and expand my skill set. I am committed to growing my expertise in web development and collaborating with others to create engaging and user-friendly websites.</p>
                 <nav>
                     <ul class="link">
-                        <li id="p1" onclick="toplanguages(this)">front-end</li>
-                        <li id="p2" onclick="toplanguages(this)">Back-end</li>
-                        <li id="p3" onclick="toplanguages(this)">Data-base</li>
+                        <li id="p1" onclick="toplanguages(this)" style="cursor: pointer;">front-end</li>
+                        <li id="p2" onclick="toplanguages(this)" style="cursor: pointer;">Back-end</li>
+                        <li id="p3" onclick="toplanguages(this)" style="cursor: pointer;">Data-base</li>
                     </ul>
                 </nav>
                 <div classe="imageskills">
@@ -74,15 +73,8 @@
         <h3>Creative approach to research,analysis and decision making</h3>
         </div>
         </div>
-        <br>
-        <br>
-        <br>
         <!-- start portflio -->
         <h1>PORTFOLIO</h1>
-        <br>
-        <br>
-        <br>
-        <br>
         <div class="portfolio">
             <div class="leftblox">
                 <video class="video" onclick="linkopen('dojoweather')" onmouseover="startvideo(this),zoomin(this)" onmouseout="closevideo(this),defult(this)" src="./vedio/dojoweather.mp4" muted></video>
@@ -94,44 +86,40 @@
             </div>
         </div>
         <!-- end portflio -->
-        <br>
-        <br>
-        <br>
         <h1> CONTACT ME</h1>
+        <br>
+        <hr>
+        <br>
+        <br>
         <div class="contact">
-        <br>
-        <br>
-        <br>
-        <br>
         <!-- contact -->
         <div class="contact" id="Contact-sec">
             <div class="bloc-1">
                 <div class="address" style="cursor: default;">
                     <img src="./image/address.jpg" alt="">
-                    <h2>L'Aouina-Dar Fadhel Avenue,Tunisia</h2>
+                    <h2>Tunisia</h2>
                 </div>
                 <div class="phone" style="cursor: default;">
                     <img src="./contact-icon-3357824_1280.webp" alt="">
-                    <h2>+216 29619933</h2>
+                    <h2>WhatsApp</h2>
                 </div>
                 <div class="email" style="cursor: default;">
                     <img src="./email-icon-design-in-blue-circle-png.webp" alt="">
-                    <h2>widedmsakem@gmail.com</h2>
+                    <h2>My Email</h2>
                 </div>
                 <div class="github" style="cursor: default;">
                     <img src="./image/Github-512.webp" alt="">
-                    <h2>User name : widedmsa</h2>
+                    <h2>Github</h2>
                 </div>
             </div>
             <div class="vertical-line"></div>
             <div class="feedback">
-                <h2 id="Send">Send me a message </h2>
-                <h2>If you have any questions or feedback, do not hesitate to get in touch!</h2>
-                <br>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Enter your message here... " id="message">
-                <button onclick="alert('your message was sent successfully!')" style="cursor: pointer;">Send now</button>
+                <div><input id="firstname" type="text" placeholder="First Name">
+                    <input type="lastname" placeholder="Last Name">
+                    <input id="email" type="text" placeholder="Email">
+                    <textarea placeholder="your message" id="message"></textarea>
+                <button onclick="validateForm()" style="cursor: pointer;">Send now</button>
+                </div>
             </div>
         </div>
         <!-- end contact -->

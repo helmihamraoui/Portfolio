@@ -58,3 +58,16 @@ document.getElementById("cv")
         var filename = "output.txt";
         download(filename, text);
     }, false);
+    var first = document.getElementById("firstname").value;
+    var last = document.getElementById("lastname").value;
+    var email = document.getElementById("email").value;*
+function chainevide(){
+    
+}
+function validateForm() {
+        
+        
+    }
+
+
+
