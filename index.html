@@ -10,45 +10,52 @@
     <!-- container -->
     <div class="container">
         <!-- navbar -->
-        <div class="navbar">
+        <div class="navbar" id="home">
             <!-- profile -->
             <div class="profile">
-                <img id="image" src="./image/helmi.jpg" alt="profile">
-                <h1 id="name">Name lastname</h1>
+                <img id="image" src="" alt="profile">
+                <h1 id="name">Wided Msakem</h1>
                 <h2>A junior web developer </h2>
-                <img style="cursor: pointer;" id="cv" src="./image/cv-icon-11 (1).jpg">
+                <a href="wided.cv.pdf" download="MyCV.pdf">
+                    <img src="./cv-icon-11.jpg" alt="" id="cv">
+                </a>
             </div>
             <!-- subnavbar -->
                 <div class="subnavbar">
                     <ul style="cursor: pointer;">
-                        <li>Home</li>
-                        <li>About me </li>
-                        <li>Skills</li>
-                        <li>Contact me</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about-me">About </a> </li>
+                        <li><a href="#skills-box">Skills</a></li>
+                        <li><a href="#portfolio-sec">Portfolio</a></li>
+                        <li><a href="#" onclick="scrollTo('#do')">What I do </a></li>
+                        <li><a href="#Contact-sec">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <!-- end profile -->
         <!-- end navbar -->
+        
         <!-- start card descption -->
-        <div class="topcarte">
-            <p> My name is [Your Name], and I’m currently a beginner in web development. my passion for technology led me to explore web development. I am currently learning HTML, CSS, and JavaScript through a web development bootcamp, where I’ve been building my skills in creating responsive websites and understanding the core concepts of front-end development. My goal is to become proficient in building interactive, user-friendly web pages, and I am eager to apply my creativity and problem-solving abilities in real-world projects. While I’m still at the start of my journey, I am committed to continuous learning and improving my coding skills to eventually become a full-fledged web developer.</p>
-            <img src="./image/web_developer.webp" alt="">
+        <div class="topcarte" id="about-me">
+            <p>Hi there!, my name is Wided Msakem. I hold a baccalaureate in Mathematics and a Bachelor’s degree in English Literature and Civilization , which have equipped me with strong analytical and communication skills. My background in mathematics has fostered my problem-solving abilities, while my studies in English have enhanced my proficiency in written and verbal communication.
+
+                Currently, I am diving into the world of web development. I am excited to blend my analytical skills with creative design and coding. My goal is to create engaging and user-friendly web applications that make a positive impact.
+                
+                As I continue to learn and grow in this field, I am eager to apply my unique combination of skills and knowledge to real-world projects. I am passionate about collaborating with others and contributing to innovative solutions in technology.</p>
+            <img id="web-dev" src="./image/web_developer.webp" alt="" onmouseover="over(this)" onmouseout="out(this)">
         </div>
         <br>
         <br>
         <!-- start box skills -->
         <h1>SKILLS</h1>
         <br>
-        <div class="boxskills">
-                <p>As a beginner in web development, I am eager to build a solid foundation in both front-end and back-end technologies. I have started learning HTML, CSS, and JavaScript, and I am excited to apply these skills in my current portfolio  project . I am also familiarizing myself with responsive design principles and basic version control using Git. My passion for problem-solving drives me to continuously seek new challenges and expand my skill set. I am committed to growing my expertise in web development and collaborating with others to create engaging and user-friendly websites.</p>
+        <div class="boxskills" id="skills-box">
+                <p>Before starting my web development journey, I developed strong interpersonal skills through various experiences. My background in English helped me articulate ideas clearly and engage effectively in discussions. I have collaborated in team settings, honing my ability to listen actively and empathize with others, which fosters a positive and productive atmosphere. These skills have prepared me well for collaborative projects in web development, where effective communication and teamwork are essential. I’m excited to leverage my unique background and interpersonal abilities as I create engaging web applications that make a positive impact.</p>
                 <nav>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>MERN</li>
-                        <li>Python</li>
+                        <li>FRONT END </li>
+                        <li>BACK END </li>
+                        <li>DATABASE</li>
                     </ul>
                 </nav>
         </div>
@@ -57,28 +64,31 @@
         <br>
         <br>
         <br>
-        <h1>WHAT I DO</h1>
+        
         <!-- design -->
-        <div class="whatIDo">
-        <div class="blocdescription"><img src="./image/design.png" alt="design">
-        <h2>Design</h2>
-        <h3>Keeping it simple. Centered on content and functionality</h3>
+        <h1>WHAT I DO</h1>
+        <div class="whatIDo" id="Do">
+            <div class="blocdescription"><img src="./image/design.png" alt="design">
+            <h2>Design</h2>
+            <h3>Keeping it simple. Centered on content and functionality</h3>
+            </div>
+            <!-- developement -->
+            <div class="blocdescription"><img src="./image/dev.png" alt="Developement">
+            <h2>Developement</h2>
+            <h3>My goals are to focus on clean code and newest technologies</h3>
+            </div>
+            <!-- solve -->
+            <div class="blocdescription"><img src="./image/psolve.png" alt="psolve">
+            <h2>Problem Solving</h2>
+            <h3>Creative approach to research,analysis and decision making</h3>
+            </div>
         </div>
-        <!-- developement -->
-        <div class="blocdescription"><img src="./image/dev.png" alt="Developement">
-        <h2>Developement</h2>
-        <h3>My goals are to focus on clean code and newest technologies</h3>
-        </div>
-        <!-- solve -->
-        <div class="blocdescription"><img src="./image/psolve.png" alt="psolve">
-        <h2>Problem Solving</h2>
-        <h3>Creative approach to research,analysis and decision making</h3>
-        </div>
-        </div>
-        <hr>
+        <br>
+        <br>
+        <br>
         <!-- start portflio -->
         <h1>PORTFOLIO</h1>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio-sec">
             <div class="leftblox">
                 <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/dojoweather.mp4" muted></video>
                 <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/page.mp4" muted></video>
@@ -93,17 +103,47 @@
         <br>
         <br>
         <h1> CONTACT ME</h1>
-        <div class="contact">
-            <form action="">Enter your user name</form>
-            <input id="username" type="text" placeholder="user name">
-            <form action="">Enter your email address</form>
-            <input id="user-gmail" type="text" placeholder="user-name@gmail.com" >
-            <form action=""> User Feeback</form>
-            <textarea name="" id="" placeholder="here you can write a brief description of the reason for contacting us ..."></textarea> 
-            <br>
-            <button>Submit</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- contact -->
+        <div class="contact" id="Contact-sec">
+            <div class="bloc-1">
+                <div class="address" style="cursor: default;">
+                    <img src="./image/address.jpg" alt="">
+                    <h2>L'Aouina-Dar Fadhel Avenue,Tunisia</h2>
+                </div>
+                <div class="phone" style="cursor: default;">
+                    <img src="./contact-icon-3357824_1280.webp" alt="">
+                    <h2>+216 29619933</h2>
+                </div>
+                <div class="email" style="cursor: default;">
+                    <img src="./email-icon-design-in-blue-circle-png.webp" alt="">
+                    <h2>widedmsakem@gmail.com</h2>
+                </div>
+                <div class="github" style="cursor: default;">
+                    <img src="./image/Github-512.webp" alt="">
+                    <h2>User name : widedmsa</h2>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="feedback">
+                <h2 id="Send">Send me a message </h2>
+                <h2>If you have any questions or feedback, do not hesitate to get in touch!</h2>
+                <br>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Enter your message here... " id="message">
+                <button onclick="alert('your message was sent successfully!')" style="cursor: pointer;">Send now</button>
+            </div>
+        </div>
+        <!-- end contact -->
+
+            
         </div>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
