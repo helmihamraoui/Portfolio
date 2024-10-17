@@ -10,6 +10,7 @@
     <!-- container -->
     <div class="container">
         <!-- navbar -->
+<<<<<<< HEAD
         <div class="navbar">
             <div class="icons">
                 <img src="./images/github.png" alt="github">
@@ -24,14 +25,36 @@
                 <h1>Name Surname</h1>
                 <h3>A junior web developer </h3>
                 <img style="cursor: pointer;" id="cv" src="./images/resume.png">
+=======
+        <div class="navbar" id="hom">
+            <!-- profile -->
+            <div class="profile">
+                <div class="name">
+                    <img id="image" src="./image/helmi.jpg" alt="profile">
+                    <h1 id="name">Helmi Hamraoui</h1>
+                    <h2>A junior web developer </h2>
+                </div>
+                <a href="wided.cv.pdf" download="MyCV.pdf">
+                
+                    <button id="cv-btn" style="cursor: pointer;">download CV</button>
+                </a>
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
             </div>
             <!-- subnavbar -->
                 <div class="subnavbar">
                     <ul style="cursor: pointer;">
+<<<<<<< HEAD
                         <li>Home</li>
                         <li>About </li>
                         <li>Skills</li>
                         <li>Contact</li>
+=======
+                        <li><a href="#hom">Home</a></li>
+                        <li><a href="#skills">Skills </a></li>
+                        <li><a href="#do">What I do</a></li>
+                        <li><a href="#portf">Portfolio</a></li>
+                        <li><a href="#contact-sec">Contact </a></li>
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
                     </ul>
                 </div>
             </div>
@@ -39,14 +62,20 @@
         <!-- end navbar -->
         <!-- start card descption -->
         <div class="topcarte">
+<<<<<<< HEAD
             <p> My name is [Your Name], and I’m currently a beginner in web development. my passion for technology led me to explore web development. I am currently learning HTML, CSS, and JavaScript through a web development bootcamp, where I’ve been building my skills in creating responsive websites and understanding the core concepts of front-end development. My goal is to become proficient in building interactive, user-friendly web pages, and I am eager to apply my creativity and problem-solving abilities in real-world projects. While I’m still at the start of my journey, I am committed to continuous learning and improving my coding skills to eventually become a full-fledged web developer.</p>
             <img src="./image/web_developer.webp" alt="">
+=======
+            <p> My name is Helmi Hamraoui , and I’m currently a beginner in web development. my passion for technology led me to explore web development. I am currently learning HTML, CSS, and JavaScript through a web development bootcamp, where I’ve been building my skills in creating responsive websites and understanding the core concepts of front-end development. My goal is to become proficient in building interactive, user-friendly web pages, and I am eager to apply my creativity and problem-solving abilities in real-world projects. While I’m still at the start of my journey, I am committed to continuous learning and improving my coding skills to eventually become a full-fledged web developer.</p>
+            <img id="developement" onmouseover="replace(this)" src="./image/web_developer.webp" alt="image">
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
         </div>
         <hr>
         <!-- start box skills -->
         <br>
         <br>
         <br>
+<<<<<<< HEAD
         <div class="boxskills">
                 <h1 class="skills">SKILLS</h1>
                 <p>As a beginner in web development, I am eager to build a solid foundation in both front-end and back-end technologies. I have started learning HTML, CSS, and JavaScript, and I am excited to apply these skills in my current portfolio  project . I am also familiarizing myself with responsive design principles and basic version control using Git. My passion for problem-solving drives me to continuously seek new challenges and expand my skill set. I am committed to growing my expertise in web development and collaborating with others to create engaging and user-friendly websites.</p>
@@ -61,6 +90,14 @@
                         <li>CSS</li>
                         <li>MERN</li>
                         <li>Python</li>
+=======
+        <div class="boxskills" id="skills">
+                <nav>
+                    <ul class="link">
+                        <li id="p1" onclick="toplanguages(this)" style="cursor: pointer;">front-end</li>
+                        <li id="p2" onclick="toplanguages(this)" style="cursor: pointer;">Back-end</li>
+                        <li id="p3" onclick="toplanguages(this)" style="cursor: pointer;">Data-base</li>
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
                     </ul>
                 </nav>
         </div>
@@ -68,26 +105,33 @@
         <hr>
         <h1>What I Do</h1>
         <!-- design -->
-        <div class="whatIDo">
-        <div class="blocdescription"><img src="./image/design.png" alt="design">
-        <h2>Design</h2>
-        <h3>Keeping it simple. Centered on content and functionality</h3>
-        </div>
+        <div class="whatIDo" id="do">
+            <div class="blocdescription"><img src="./image/design.png" alt="design">
+                <h2>Design</h2>
+                <h3>Keeping it simple. Centered on content and functionality</h3>
+            </div>
         <!-- developement -->
-        <div class="blocdescription"><img src="./image/dev.png" alt="Developement">
-        <h2>Developement</h2>
-        <h3>My goals are to focus on clean code and newest technologies</h3>
-        </div>
+            <div class="blocdescription"><img src="./image/dev.png" alt="Developement">
+                <h2>Developement</h2>
+                <h3>My goals are to focus on clean code and newest technologies</h3>
+            </div>
         <!-- solve -->
-        <div class="blocdescription"><img src="./image/psolve.png" alt="psolve">
-        <h2>Problem Solving</h2>
-        <h3>Creative approach to research,analysis and decision making</h3>
+            <div class="blocdescription"><img src="./image/psolve.png" alt="psolve">
+                <h2>Problem Solving</h2>
+                <h3>Creative approach to research,analysis and decision making</h3>
+            </div>
         </div>
+<<<<<<< HEAD
         </div>
         <hr>
         <!-- start portflio -->
         <h1>portfolio</h1>
         <div class="portfolio">
+=======
+        <!-- start portflio -->
+        <h1>PORTFOLIO</h1>
+        <div class="portfolio" id="portf">
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
             <div class="leftblox">
                 <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/dojoweather.mp4" muted></video>
                 <video class="video" onmouseover="startvideo(this)" onmouseout="closevideo(this)" src="./vedio/page.mp4" muted></video>
@@ -98,8 +142,54 @@
             </div>
         </div>
         <!-- end portflio -->
+<<<<<<< HEAD
         <hr>
         
+=======
+        <h1> CONTACT ME</h1>
+        <br>
+        <br>
+        <div class="contact" id="contact-sec">
+        <!-- contact -->
+        <div class="contact" id="Contact-sec">
+            <div class="bloc-1">
+                <div class="address" style="cursor: default;">
+                    <img src="./image/address.jpg" alt="">
+                    <h2>Tunisia</h2>
+                </div>
+                <div onclick="linkOpen('watts')" class="phone" style="cursor: default;">
+                    <img src="image/logo.png" alt="">
+                    <h2>WhatsApp</h2>
+                </div>
+                <div onclick="linkOpen('github')" class="email" style="cursor: default;">
+                    <img src="image/Github-512.webp" alt="">
+                    <h2>Github</h2>
+                </div>
+                <div onclick="linkOpen('linkidin')" class="phone" style="cursor: default;">
+                    <img src="image/linkedin-icon-1024x1024-z5dvl47c.png" alt="">
+                    <h2>linkedin</h2>
+                </div>
+                <div onclick="linkOpen('email')" class="email" style="cursor: default;">
+                    <img  src="image/email-icon-design-in-blue-circle-png.webp" alt="">
+                    <h2>My Email</h2>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="feedback">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="307ffe27-374c-4919-9601-e7b306ae99ed">
+                <div><input name="first name" id="firstname" type="text" placeholder="First Name">
+                    <input name="lastname" type="lastname" placeholder="Last Name">
+                    <input id="email" name="email" type="email" placeholder="Email">
+                    <textarea name="message" placeholder="your message" id="message"></textarea>
+                <button onclick="validateForm()" style="cursor: pointer;" type="submit">Send now</button>
+            </form>
+                </div>
+            </div>
+        </div>
+        <!-- end contact -->
+
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
     </div>
 </body>
 </html>

@@ -2,9 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubunto';
+    scroll-behavior: smooth;
 }
 body{
     background-image: url("image/background.jpg");
+<<<<<<< HEAD
+=======
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#name{
+    font-size: 30px;
+    color: rgb(103, 90, 83);
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
 }
 .navbar{
     background-color:#e6a992;
@@ -18,6 +31,20 @@ body{
     color: rgb(111, 91, 91);
 
 }
+
+#cv-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #f0e8e4;
+    box-shadow: 0 0 25px rgb(35, 45, 162) ,0 0 25px rgb(35, 45, 162) ;
+}
+.navbar a {
+    text-decoration: none;
+}
+ul li:hover{
+    transform: scale(1.2);
+}
 .profile{
     display: flex;
     flex-direction: column;
@@ -27,8 +54,14 @@ body{
     margin-top: -100px;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap: 5px;
 
+=======
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
 }
 #cv{
     width: 100px;
@@ -108,6 +141,7 @@ body{
     padding: 10px 100px;
     border-radius: 50px;
     box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+<<<<<<< HEAD
     margin-bottom: 100px;
 }
 #cv{
@@ -115,6 +149,17 @@ body{
     border-radius: 40px;
 }
 =======
+=======
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+}
+
+
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
 .container{
     margin: 0 auto;
 }
@@ -164,6 +209,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 50px;
+<<<<<<< HEAD
     width: 2000px; 
     font-size: 30px;
     color: rgb(39, 0, 0);
@@ -189,6 +235,11 @@ body{
     padding: 10px;
     border-radius: 55px;
 
+=======
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
 }
 .boxskills img{
     width: 400px;
@@ -233,6 +284,14 @@ h1{
     gap: 30px;
     padding: 10px;
     border-radius: 50px;
+<<<<<<< HEAD
+=======
+    background-color: #f0e3dc;
+    margin: 0 auto;
+    width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
 }
 .portfolio video{
     width: 850px;
@@ -253,6 +312,178 @@ h1{
     align-items: center;
     justify-content: center; 
     padding: 20px;
+<<<<<<< HEAD
     gap: 30px;
 >>>>>>> b72011b4b096d88be86a3ecc66a0ca4f8c79952a
 }
+=======
+    gap: 40px;
+}
+hr{
+    font-size: 150px;
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+
+}
+#username{
+    width: 200px;
+    height: 50px;
+}
+#user-gmail{
+    width: 200px;
+    height: 20px;
+}
+
+
+.icons img{
+    width:30px;
+}
+.whatIDo{
+    background-color:rgb(201, 230, 246) ;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+}
+
+img{
+    width: 50px;
+    border-radius: 40px;
+}
+    
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.phone:hover{
+    transform: scale(1.1);
+
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email:hover{
+    transform: scale(1.1);
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.github:hover{
+    transform: scale(1.1);
+}
+.contact{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.feedback h2{
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    width: 150px;
+    background-color: #e8d3c9;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+    font-size: 20px;
+}
+#email{
+    height: 20px;
+    width: 350px;
+    background-color: #e8d3c9;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+    font-size: 20px;
+}
+input:hover{
+    transform: scale(1.1);
+}
+#message{
+    height: 100px;
+    text-align: top;
+}
+button{
+    color: #5a1f01;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: #f2ac89;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+.vertical-line {
+    width: 5px; 
+    height: 370px; 
+    background-color: rgb(102, 61, 61); 
+    margin: 20px;
+}
+input::placeholder {
+    font-size: 20px; 
+    color: gray; 
+}
+textarea::placeholder{
+    font-size: 20px; 
+    color: gray;
+}
+textarea{
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    background-color: #e8d3c9;
+    border-radius: 0  0  40px 0;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+}
+#send{
+    color: #612609;
+}
+.bloc-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #f0e3dc;
+}
+.feedback div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    }
+>>>>>>> 7e292b440191ada23ba85ed6d377e37ead0abf9b
