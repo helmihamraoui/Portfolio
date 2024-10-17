@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo";
+}
+body{
+    background-image: url("image/background.jpg");
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    font-size: 30px;
+    color: rgb(103, 90, 83);
+}
+.navbar{
+    background-color:#f3bca1;
+    width: 2000px;
+    height: 650px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(103, 90, 83);
+    margin-bottom: 60px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: -100px; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#cv{
+    width: 200px;
+    height: 50px;
+    box-shadow:  25px 20px -20px rgba(0,0,0,0.7);
+}
+#image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.7);
+}
+.subnavbar ul li{
+    margin-top:10px;
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+.subnavbar ul li a {
+text-decoration: none ;
+font-size: 25px;
+}
+.subnavbar ul li::after{
+    content: '';
+    background:#0D99FF;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.subnavbar ul li:hover{
+    color:white
+    
+}
+.subnavbar ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+.subnavbar{
+    background-color: whitesmoke;
+    padding: 10px 100px;
+    border-radius: 50px;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+    height: 60px;
+    background-color: rgb(201, 230, 246);
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+#cv{
+    width: 50px;
+    border-radius: 40px;
+}
+.container{
+    margin: 0 auto;
+}
+.toppage{
+    margin: 0 auto;
+}
+.topcarte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0 auto;
+    width: 1500px;
+    height: 400px;
+    border-radius: 50px; 
+    padding: 20px;
+    position: relative;
+    bottom: 50px;
+    border: 3px solid white;
+    font-size: 25px;
+    margin-top: -30px;
+    background-color: rgb(201, 230, 246);
+
+}
+
+
+.topcarte img{
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+    color: #f2ac89;
+}
+.boxskills{
+    font-size: 35px;
+    font-family: 'Ubunto';
+    color: rgb(27, 1, 1);
+    display: flex;
+    margin: 0 auto;
+    width: 1500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.boxskills img{
+    width: 1500px;
+    padding: 10px;
+    border-radius: 55px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    background-color:rgb(201, 230, 246);
+    width: 1000px;
+    height: 100px;
+    border-radius: 40px;
+    color: #e05d1c;
+    
+}
+
+.whatIDo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 250px;
+}
+.blocdescription{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+}
+.blocdescription img{
+    width: 200px;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(201, 230, 246);
+    margin: 0 auto;
+    width: 1500px;
+}
+.portfolio video{
+    width: 650px;
+    border-radius:70px;
+}
+.leftblox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    gap: 40px;
+}
+.rightblox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    gap: 40px;
+}
+hr{
+    font-size: 150px;
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+
+}
+<<<<<<< HEAD
+#username{
+    width: 200px;
+    height: 50px;
+}
+#user-gmail{
+    width: 200px;
+    height: 20px;
+}
+
+
+.icons img{
+    width:30px;
+}
+.whatIDo{
+    background-color:rgb(201, 230, 246) ;
+}
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+}
+
+img{
+    width: 50px;
+    border-radius: 40px;
+}
+    
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.phone:hover{
+    transform: scale(1.1);
+
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email:hover{
+    transform: scale(1.1);
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.github:hover{
+    transform: scale(1.1);
+
+}
+.contact{
+    display: flex;
+    gap: 200px;
+    padding-bottom: 50px;
+
+
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    height: 50px;
+    background-color: #e8d3c9;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+}
+input:hover{
+    transform: scale(1.1);
+}
+#message{
+    height: 100px;
+    text-align: top;
+}
+button{
+    color: #5a1f01;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: #f2ac89;
+    border: none;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4)
+    
+    
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+.vertical-line {
+    width: 2px; 
+    height: 350px; 
+    background-color: rgb(102, 61, 61); 
+    margin: 20px;
+}
+input::placeholder {
+    font-size: 20px; 
+    color: gray; 
+}
+#send{
+    color: #612609;
+}
+.bloc-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #f0e3dc;
+}
+=======
+>>>>>>> e1c390b3d915f320ff6531c867349822ab40a245
