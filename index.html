@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>portfolio</title>
 </head>
 <body>
     <!-- container -->
@@ -93,7 +93,6 @@
         <h1> CONTACT ME</h1>
         <br>
         <br>
-        <div class="contact" id="contact-sec">
         <!-- contact -->
         <div class="contact" id="Contact-sec">
             <div class="bloc-1">
@@ -119,20 +118,19 @@
                 </div>
             </div>
             <div class="vertical-line"></div>
-            <div class="feedback">
-                <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="feedback">
                     <input type="hidden" name="access_key" value="307ffe27-374c-4919-9601-e7b306ae99ed">
-                <div><input name="first name" id="firstname" type="text" placeholder="First Name">
-                    <input name="lastname" type="lastname" placeholder="Last Name">
+                    <div class="nameinput"><input name="first name" id="firstname" type="text" placeholder="First Name">
+                    <input name="lastname" type="lastname" placeholder="Last Name"></div>
                     <input id="email" name="email" type="email" placeholder="Email">
                     <textarea name="message" placeholder="your message" id="message"></textarea>
                 <button onclick="validateForm()" style="cursor: pointer;" type="submit">Send now</button>
-            </form>
-                </div>
+            </div>
+        </form>
             </div>
         </div>
         <!-- end contact -->
-
     </div>
     <script src="script.js"></script>
 </body>

@@ -56,7 +56,7 @@ function zoomin(element){
     element.style.transition ="all 2s";
 }
 function defult(element){
-    element.style.width='650px';
+    element.style.width='550px';
 }
 document.querySelector('#cv').addEventListener('click', function() {
     console.log('CV image clicked. Download started.');
