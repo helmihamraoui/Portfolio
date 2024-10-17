@@ -6,11 +6,14 @@
 }
 body{
     background-image: url("image/background.jpg");
+    background-repeat:no-repeat ;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 #name{
     font-size: 30px;
@@ -326,7 +329,6 @@ img{
 .contact{
     display: flex;
     gap: 200px;
-    padding-bottom: 50px;
     margin-top: 30px;
 }
 .feedback h2{
